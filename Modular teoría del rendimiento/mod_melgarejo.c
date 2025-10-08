@@ -1,4 +1,13 @@
-/**/
+/**********************************************************************************
+*       -----Pontificia Universidad Javeriana-----                                *
+*                                                                                 *
+*       Estudiante: Diego Melgarejo                                               *
+*       Fecha: 23 septiembre                                                      *
+*       Materia: Sistemas Operativos                                              *
+*       Docente: John Corredor                                                    *
+*       Objetivo: teoria de rendimiento                                           *
+*                                                                                 *
+**********************************************************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
