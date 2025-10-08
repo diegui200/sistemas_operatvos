@@ -14,7 +14,7 @@ Compilas con `make`, ejecutas con `./labN`, y limpias con `make clean`.
 
 ------------------------------------------------------------------------
 
-## 🧰 Requisitos
+Requisitos
 
 -   `gcc`
 -   `make`
@@ -22,7 +22,7 @@ Compilas con `make`, ejecutas con `./labN`, y limpias con `make clean`.
 
 ------------------------------------------------------------------------
 
-## ⚙️ Compilación
+Compilación
 
 ``` bash
 # Compilar todo
@@ -34,7 +34,7 @@ make lab1
 
 ------------------------------------------------------------------------
 
-## ▶️ Ejecución
+Ejecución
 
 ``` bash
 ./lab1
@@ -44,7 +44,7 @@ make lab1
 
 ------------------------------------------------------------------------
 
-## 🧹 Limpieza
+Limpieza
 
 ``` bash
 make clean
@@ -52,7 +52,7 @@ make clean
 
 ------------------------------------------------------------------------
 
-## 📁 Estructura del proyecto
+Estructura del laboratorio
 
     .
     ├─ labo-1.c
@@ -63,7 +63,7 @@ make clean
 
 ------------------------------------------------------------------------
 
-## 🎯 Objetivos de `make`
+Objetivos de `make`
 
 ``` makefile
 # make        -> compila todos los laboratorios
