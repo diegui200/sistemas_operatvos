@@ -1,0 +1,12 @@
+pep = cliente servidor
+
+all: $(pep)
+
+cliente: cliente.c
+	gcc -o $@ $<
+
+servidor: servidor.c
+	gcc -o $@ $<
+
+clean:
+	rm -f $(pep)
