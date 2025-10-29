@@ -1,0 +1,45 @@
+# ============================================================================
+# Makefile - Laboratorios de Sistemas Operativos
+# Autor: Diego Alejandro Melgarejo Bejarano
+# Universidad Javeriana
+# Profesor: John Corredor
+# ============================================================================
+# Descripción:
+#   Compila automáticamente los laboratorios de hilos (lab-1 a lab-9)
+#   con soporte para la biblioteca pthread.
+# ============================================================================
+
+CC = gcc
+CFLAGS = -lpthread
+
+all: lab-1 lab-2 lab-3 lab-4 lab-5 lab-6 lab-7 lab-8 lab-9
+
+lab-1: lab-1.c
+	$(CC) lab-1.c -o lab-1 $(CFLAGS)
+
+lab-2: lab-2.c
+	$(CC) lab-2.c -o lab-2 $(CFLAGS)
+
+lab-3: lab-3.c
+	$(CC) lab-3.c -o lab-3 $(CFLAGS)
+
+lab-4: lab-4.c
+	$(CC) lab-4.c -o lab-4 $(CFLAGS)
+
+lab-5: lab-5.c
+	$(CC) lab-5.c -o lab-5 $(CFLAGS)
+
+lab-6: lab-6.c
+	$(CC) lab-6.c -o lab-6 $(CFLAGS)
+
+lab-7: lab-7.c
+	$(CC) lab-7.c -o lab-7 $(CFLAGS)
+
+lab-8: lab-8.c
+	$(CC) lab-8.c -o lab-8 $(CFLAGS)
+
+lab-9: lab-9.c
+	$(CC) lab-9.c -o lab-9 $(CFLAGS)
+
+clean:
+	rm -f lab-1 lab-2 lab-3 lab-4 lab-5 lab-6 lab-7 lab-8 lab-9
